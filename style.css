@@ -1,0 +1,96 @@
+body {
+    background-image: url("blood_moon.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+}
+
+p {
+    margin: 0;
+}
+
+.text {
+    color: rgb(255, 187, 0);
+    text-align: left;
+    padding-left: 20px;
+    text-shadow: 1px 1px 2px rgb(0, 255, 34);
+    
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: brown;
+    margin: 0;
+}
+
+/* Image Container */
+.images_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Images inside the cards */
+.card img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Text underneath each image */
+.card .text {
+    color: rgb(255, 187, 0);
+    text-align: center;
+    padding: 12px;
+    margin: 0;
+}
+
+.intro{
+color: white
+
+
+}
+.black-text {
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  text-shadow: 1px 1px 2px white;
+}
+
+.black-txt{
+  color: rgb(255, 187, 0);
+  font-weight: bold;
+  font-size: 25px;
+  text-shadow: 3px 1px 0px rgb(7, 7, 7);
+}
